@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/WeeHorse/static-express-www#readme",
   "dependencies": {
+    "basic-auth": "^2.0.1",
     "express": "^4.17.2"
   }
 }

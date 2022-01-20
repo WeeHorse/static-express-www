@@ -3,13 +3,11 @@ let port = 3000
 
 // express server
 let express = require('express')
+const app = express()
 
 // basic authentication
 const auth = require('./auth')
 app.use(auth)
-
-// our web app
-const app = express()
 
 // serve frontend files (built)
 app.use(express.static('./www'));
